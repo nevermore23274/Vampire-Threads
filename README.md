@@ -4,15 +4,15 @@ The initial thread will be called the main thread, the main thread creates and s
 ## Podman Commands
 ### Build
 ```
-podman build -t assignment3:latest -f docker/Dockerfile .
+podman build -t vamp:latest -f docker/Dockerfile .
 ```
 ### Run
 ```
-podman run --name assignment3 -v /home/sineyed/Documents/assignment:/assignment3 -it assignment3
+podman run --name vamp -v /home/catdog/Documents/vamp:/vamp -it vamp
 ```
 ### Run Already Named Container (if you've ran the previous command once)
 ```
-podman run -v assignment3 -v /home/sineyed/Documents/assignment:/assignment3 -it assignment3
+podman run -v assignment3 -v /home/catdog/Documents/vamp:/vamp -it vamp
 ```
 ### Cleanup
 ```
