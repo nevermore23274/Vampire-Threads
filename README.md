@@ -12,7 +12,7 @@ podman run --name vamp -v /home/catdog/Documents/vamp:/vamp -it vamp
 ```
 ### Run Already Named Container (if you've ran the previous command once)
 ```
-podman run -v assignment3 -v /home/catdog/Documents/vamp:/vamp -it vamp
+podman run -v vamp -v /home/catdog/Documents/vamp:/vamp -it vamp
 ```
 ### Cleanup
 ```
